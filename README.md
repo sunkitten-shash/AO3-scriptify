@@ -2,15 +2,17 @@
 
 Color-code dialogue on AO3 to turn a fic into a script.
 
-With any of Tampermonkey/Greasemonkey/Violentmonkey/etc installed in your browser, [click here to install AO3-scriptify](https://github.com/irrationalpie7/AO3-scriptify/raw/main/scriptify.pub.user.js).
+With any of Tampermonkey/Greasemonkey/Violentmonkey/etc installed in your browser, [click here to install AO3-scriptify](https://github.com/sunkitten-shash/AO3-scriptify/raw/main/scriptify.pub.user.js).
 
 ## Using the extension
+
 With the script installed, a new "Scriptify:" section will be added below the AO3 work stats. The work will look the same as usual until you hit the "Start color-coding dialogue" button.
 ![A snippet of the stats section of an ao3 work, below which there's a scriptify section containing a start button](images/1-initial.png)
 
 Once you do, the "Start color-coding dialogue" button will be replaced with an "Export" button, below which there will be a warning not to refresh the page and some exporting info.
 
 Currently:
+
 > Warning: once you start color-coding dialogue, refreshing the page will ruin all your hard work! If copy/paste doesn't work or is too messy, use the export button. You can look at the resulting file in any browser, or upload it to google drive and then open it as a doc.
 
 ![A snippet of the stats section of an ao3 work, below which there's a scriptify section with an export button and warning](images/2-export.png)
@@ -30,7 +32,7 @@ Here we can see the extension in use. The control panel floats at the top of the
 
 (please do let me know if any of these break!)
 
-* Hitting 'Enter' while any button is focused does the same thing as clicking the button. That includes the color bar controls and the quoted dialogue lines.
-* Hitting the digit or letter associated with a color (e.g. 0 for the first one), while you're focused on a dialogue line, behaves like clicking that color in the color bar, and then clicking the dialogue line you're on (so, if you're on a line of dialogue, hitting '1' will paint the quote that color)
-* Hitting '+' while on a dialogue line will paint it the next color in order, based on the line's current color (unless it's already the max color, then it'll cycle back to the beginning). This is like what you'd get by clicking the "Rotate" button in the color bar, and then the dialogue line.
-* Hitting 'Tab' sends you to the next line of dialogue (or the next control bar button)
+- Hitting 'Enter' while any button is focused does the same thing as clicking the button. That includes the color bar controls and the quoted dialogue lines.
+- Hitting the digit or letter associated with a color (e.g. 0 for the first one), while you're focused on a dialogue line, behaves like clicking that color in the color bar, and then clicking the dialogue line you're on (so, if you're on a line of dialogue, hitting '1' will paint the quote that color)
+- Hitting '+' while on a dialogue line will paint it the next color in order, based on the line's current color (unless it's already the max color, then it'll cycle back to the beginning). This is like what you'd get by clicking the "Rotate" button in the color bar, and then the dialogue line.
+- Hitting 'Tab' sends you to the next line of dialogue (or the next control bar button)
